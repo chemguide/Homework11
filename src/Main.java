@@ -53,13 +53,17 @@ public class Main {
         boolean twoDays = (deliveryDistance > 20) && (deliveryDistance <= 60);
         boolean threeDays = (deliveryDistance > 60) && (deliveryDistance <= 100);
         boolean noLogistic = deliveryDistance > 100;
-        if (oneDay)
+        if (oneDay) {
             System.out.println("Потребуется дней: 1");
-        if (twoDays)
+        }
+        if (twoDays) {
             System.out.println("Потребуется дней: 2");
-        if (threeDays)
+        }
+        if (threeDays) {
             System.out.println("Потребуется дней: 3");
-        if (noLogistic)
+        }
+        if (noLogistic) {
             System.out.println("Доставки нет");
+        }
     }
 }
